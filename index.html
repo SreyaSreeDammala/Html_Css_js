@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech to Text</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Speech to Text Converter</h1>
+    <div id="wrapper">
+        <textarea id="text" name="text" rows="4" style="overflow: hidden;height: 160px;"></textarea>
+        <button id="copyButton">Copy Text</button> <!-- Optional Copy Button -->
+    </div>
+    
+    <div class="container">
+        <br><br><br>
+        <img decoding="async" id="playButton" class="playButton" src="mic.png">
+        <br>
+        <span class="instruction">Click on the mic to start recording</span>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>
